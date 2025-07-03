@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Card, { CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Mail, Phone, Linkedin, GraduationCap, Users, FileText } from "lucide-react";
 import { HeroSection } from "@/components/HeroSection";
