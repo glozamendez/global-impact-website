@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, Linkedin, Send, MessageSquare } from "lucide-react";
+import { Mail, Linkedin, Send, MessageSquare } from "lucide-react";
 
 export const ContactSection = () => {
   return (
@@ -28,7 +28,7 @@ export const ContactSection = () => {
             <CardTitle className="text-3xl text-gray-900">Get In Touch</CardTitle>
           </CardHeader>
           <CardContent className="pb-8">
-            <div className="grid md:grid-cols-3 gap-8 mb-10">
+            <div className="grid md:grid-cols-2 gap-8 mb-10">
               <div className="text-center group">
                 <div className="w-20 h-20 bg-gradient-to-r from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">
                   <Mail className="w-8 h-8 text-white" />
@@ -39,19 +39,6 @@ export const ContactSection = () => {
                   className="text-blue-600 hover:text-blue-800 transition-colors break-all font-semibold text-base"
                 >
                   glozamendez25@cmc.edu
-                </a>
-              </div>
-              
-              <div className="text-center group">
-                <div className="w-20 h-20 bg-gradient-to-r from-green-400 to-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">
-                  <Phone className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="font-bold text-gray-900 mb-3 text-lg">Phone</h3>
-                <a 
-                  href="tel:+19096879501" 
-                  className="text-green-600 hover:text-green-800 transition-colors font-semibold text-base"
-                >
-                  (909) 687-9501
                 </a>
               </div>
               
