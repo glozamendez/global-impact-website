@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { GraduationCap, Users, Sparkles, Leaf } from "lucide-react";
+import { GraduationCap, Users, Sparkles, Leaf, Heart } from "lucide-react";
 
 export const HeroSection = () => {
   const scrollToContact = () => {
@@ -45,6 +45,10 @@ export const HeroSection = () => {
             <div className="flex items-center gap-2 bg-white/70 backdrop-blur-lg rounded-full px-6 py-3 border border-white/50 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
               <Users className="w-5 h-5 text-yellow-600" />
               <span className="text-sm font-semibold text-gray-800">DE&I Leadership</span>
+            </div>
+            <div className="flex items-center gap-2 bg-white/70 backdrop-blur-lg rounded-full px-6 py-3 border border-white/50 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <Heart className="w-5 h-5 text-emerald-600" />
+              <span className="text-sm font-semibold text-gray-800">Human Rights Advocate</span>
             </div>
           </div>
           
