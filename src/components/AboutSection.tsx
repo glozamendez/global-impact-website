@@ -1,10 +1,7 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Globe, Heart, Leaf } from "lucide-react";
-
 export const AboutSection = () => {
-  return (
-    <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white/40 backdrop-blur-sm relative">
+  return <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white/40 backdrop-blur-sm relative">
       <div className="absolute inset-0 bg-gradient-to-r from-white/50 to-green-50/50"></div>
       {/* Nature accents */}
       <div className="absolute top-10 right-10 w-6 h-6 text-green-400/20">
@@ -26,9 +23,7 @@ export const AboutSection = () => {
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <p className="text-gray-700 leading-relaxed text-lg">
-              As a senior at Claremont McKenna College studying Economics and International Relations, I've dedicated my career to advancing diversity, equity, and inclusion across multiple sectors and continents.
-            </p>
+            <p className="text-gray-700 leading-relaxed text-lg">As a recent graduate at Claremont McKenna College studying Economics and International Relations, I've dedicated my career to advancing diversity, equity, and inclusion across multiple sectors and continents.</p>
             
             <p className="text-gray-700 leading-relaxed text-lg">
               My journey has taken me from conducting femicide research in Argentina to coordinating high-value proposals at Freedom House in Washington D.C., always with a focus on creating meaningful social impact.
@@ -74,6 +69,5 @@ export const AboutSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };

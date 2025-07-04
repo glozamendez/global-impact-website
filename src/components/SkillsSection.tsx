@@ -1,11 +1,8 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Languages, Users, FileText, Star, Globe, Zap } from "lucide-react";
-
 export const SkillsSection = () => {
-  return (
-    <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 bg-white/40 backdrop-blur-sm relative">
+  return <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 bg-white/40 backdrop-blur-sm relative">
       <div className="absolute inset-0 bg-gradient-to-br from-violet-50/50 to-indigo-50/50"></div>
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-16">
@@ -67,7 +64,7 @@ export const SkillsSection = () => {
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <Badge variant="outline" className="border-green-300">Microsoft Office (Advanced)</Badge>
-                    <Badge variant="outline" className="border-green-300">Airtable</Badge>
+                    <Badge variant="outline" className="border-green-300">Airtable (Advanced)</Badge>
                   </div>
                 </div>
               </div>
@@ -110,17 +107,16 @@ export const SkillsSection = () => {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                   <h4 className="font-bold text-indigo-900 mb-3 text-lg">Utrecht University</h4>
-                  <p className="text-indigo-700 leading-relaxed">Rotary Global Grant Scholar preparing for graduate studies in international development.</p>
+                  <p className="text-indigo-700 leading-relaxed">Rotary Global Grant Scholar preparing for a M.A. in Conflict Studies and Human Rights</p>
                 </div>
                 <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                   <h4 className="font-bold text-indigo-900 mb-3 text-lg">Projects for Peace - Colombia</h4>
-                  <p className="text-indigo-700 leading-relaxed">Leading community development initiatives focused on social cohesion and peacebuilding.</p>
+                  <p className="text-indigo-700 leading-relaxed">Creating an interactive map highlighting local artists from Comuna 13 in Medellin, Colombia</p>
                 </div>
               </div>
             </CardContent>
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
